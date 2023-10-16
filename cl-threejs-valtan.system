@@ -1,0 +1,11 @@
+;; -*- mode:lisp -*-
+
+(defsystem "cl-threejs-valtan"
+  :serial t
+  :components ((:file "packages")
+               (:file "three")
+               (:file "renderer")
+               (:file "scene")
+               (:file "camera")
+               (:file "main"))
+  :depends-on ("react-utilities" "js-clos-utilities"))
